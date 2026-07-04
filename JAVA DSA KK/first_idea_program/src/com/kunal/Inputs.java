@@ -10,8 +10,10 @@ public class Inputs {
 
 //        int a = 234_000_000;
 //        System.out.println(a);
-        String name = input.nextLine();
-        System.out.println(name);
- 
+//        String name = input.nextLine();
+//        System.out.println(name);
+
+        float marks = input.nextFloat();
+        System.out.println(marks);
     }
 }
