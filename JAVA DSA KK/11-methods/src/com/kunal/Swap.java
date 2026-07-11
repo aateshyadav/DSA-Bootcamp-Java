@@ -1,5 +1,6 @@
 package com.kunal;
 
+
 public class Swap {
     static void main(String[] args) {
         int a=10;
