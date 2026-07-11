@@ -12,6 +12,7 @@ public class Greeting {
         System.out.println(personalised);
 
     }
+    
 
     static String greeting(String name){
         String message = "Hello " + name;
