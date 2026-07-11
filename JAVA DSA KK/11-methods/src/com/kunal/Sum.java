@@ -2,6 +2,7 @@ package com.kunal;
 
 import java.util.Scanner;
 
+
 public class Sum {
     static void main(String[] args) {
 //        int ans = sum2();
