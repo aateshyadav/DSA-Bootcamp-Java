@@ -2,7 +2,6 @@ package com.kunal;
 
 import java.util.Scanner;
 
-
 public class Main {
     public static void main(String[] args) {
         // Q: take input of two number and print the sum
