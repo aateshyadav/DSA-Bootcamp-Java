@@ -30,7 +30,6 @@ public class Sum {
         // System.out.println("hello"); -> Nothing run after this
     }
 
-
     static void sum(){
         Scanner in = new Scanner(System.in);
         int num1, num2, sum;
