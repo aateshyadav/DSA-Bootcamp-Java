@@ -13,7 +13,6 @@ public class Greeting {
 
     }
     
-
     static String greeting(String name){
         String message = "Hello " + name;
         return message;
