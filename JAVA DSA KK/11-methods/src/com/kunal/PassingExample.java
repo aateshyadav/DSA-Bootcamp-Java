@@ -5,7 +5,6 @@ public class PassingExample {
         String name = "Kunal Kushwaha";
         greet(name);
     }
-
     static void greet(String naam){
         System.out.println(naam);
     }
