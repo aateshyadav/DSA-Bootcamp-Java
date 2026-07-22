@@ -1,4 +1,5 @@
 package com.kunal;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -16,7 +17,7 @@ public class MultiDimension {
 //                {4,5,6,10},
 //                {7,8,9}
 //        };
-        int[][] arr=new int[3][3];
+        int[][] arr=new int[2][2];
         // input
         for(int row=0;row<arr.length;row++){
             // for each col in every row
@@ -24,10 +25,12 @@ public class MultiDimension {
                 arr[row][col]=in.nextInt();
             }
         }
-        
         // output
-        for(int row=0;row<arr.length;row++){
-            System.out.println(Arrays.toString(arr[row]));
+//        for(int row=0;row<arr.length;row++){
+//            System.out.println(Arrays.toString(arr[row]));
+//        }
+        for(int[] a : arr){
+            System.out.println(Arrays.toString(a));
         }
 
         // output
@@ -40,3 +43,5 @@ public class MultiDimension {
 //        }
     }
 }
+
+
