@@ -2,8 +2,15 @@ package com.kunal;
 
 public class MaxWealth {
     static void main(String[] args) {
+        int[][] arr;
+        arr=new int[][]{
+            {1,2,3},
+            {1,4,5},
+            {5,5,5}
+        };
+        System.out.println(maximumWealth(arr));
     }
-    public int maximumWealth(int[][] accounts) {
+    public static int maximumWealth(int[][] accounts) {
         // person = row
         // account = col
         int ans = Integer.MIN_VALUE;
