@@ -27,5 +27,3 @@ public class BinarySearch {
         return -1;    // when element does not exist
     }
 }
-
-
